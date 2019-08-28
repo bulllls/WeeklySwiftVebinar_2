@@ -28,21 +28,12 @@
                                     <constraint firstAttribute="height" constant="410" id="SlL-ZQ-WaK"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoFinish" translatesAutoresizingMaskIntoConstraints="NO" id="8Vf-Zd-eiu">
-                                <rect key="frame" x="46" y="195" width="283" height="283"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="0z0-LO-5Iq"/>
-                                    <constraint firstAttribute="height" constant="283" id="WrK-u4-iZI"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="z1c-FZ-vD0" firstAttribute="top" secondItem="8Vf-Zd-eiu" secondAttribute="bottom" constant="-272" id="EB7-iR-Nn0"/>
                             <constraint firstItem="z1c-FZ-vD0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JT9-Ly-Nfo"/>
                             <constraint firstAttribute="bottom" secondItem="gNs-wG-vp2" secondAttribute="bottom" id="S9A-KL-Suz"/>
                             <constraint firstItem="z1c-FZ-vD0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Wr9-R4-105"/>
-                            <constraint firstItem="8Vf-Zd-eiu" firstAttribute="centerX" secondItem="z1c-FZ-vD0" secondAttribute="centerX" id="YI6-dK-AbC"/>
                             <constraint firstAttribute="trailing" secondItem="gNs-wG-vp2" secondAttribute="trailing" id="dxa-cA-Vng"/>
                             <constraint firstItem="gNs-wG-vp2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wXV-jF-vLv"/>
                             <constraint firstItem="gNs-wG-vp2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xoT-Xr-Agp"/>
@@ -58,6 +49,5 @@
     <resources>
         <image name="Exclusion1" width="267" height="359"/>
         <image name="bg" width="375" height="812"/>
-        <image name="logoFinish" width="283" height="283"/>
     </resources>
 </document>
