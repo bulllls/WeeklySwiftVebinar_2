@@ -12,6 +12,7 @@
 		44B5D5DD2316E5D500680B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B5D5DB2316E5D500680B12 /* Main.storyboard */; };
 		44B5D5DF2316E5DB00680B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B5D5DE2316E5DB00680B12 /* Assets.xcassets */; };
 		44B5D5E22316E5DB00680B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B5D5E02316E5DB00680B12 /* LaunchScreen.storyboard */; };
+		44B5D5EA2316ED9D00680B12 /* inserttableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5D5E92316ED9D00680B12 /* inserttableTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		44B5D5DE2316E5DB00680B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B5D5E12316E5DB00680B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B5D5E32316E5DB00680B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B5D5E92316ED9D00680B12 /* inserttableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inserttableTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				44B5D5D72316E5D500680B12 /* AppDelegate.swift */,
 				44B5D5D92316E5D500680B12 /* ViewController.swift */,
 				44B5D5DB2316E5D500680B12 /* Main.storyboard */,
+				44B5D5E92316ED9D00680B12 /* inserttableTextField.swift */,
 				44B5D5DE2316E5DB00680B12 /* Assets.xcassets */,
 				44B5D5E02316E5DB00680B12 /* LaunchScreen.storyboard */,
 				44B5D5E32316E5DB00680B12 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B5D5EA2316ED9D00680B12 /* inserttableTextField.swift in Sources */,
 				44B5D5DA2316E5D500680B12 /* ViewController.swift in Sources */,
 				44B5D5D82316E5D500680B12 /* AppDelegate.swift in Sources */,
 			);
