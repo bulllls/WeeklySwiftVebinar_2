@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passwordButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let attrString = NSAttributedString(string: "FORGOT PASSWORD", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.underlineStyle : 1 ])
+        passwordButton.setAttributedTitle(attrString, for: .normal)
     }
 
 
